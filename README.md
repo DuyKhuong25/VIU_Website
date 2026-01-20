@@ -289,8 +289,10 @@ Dự án này được phát triển cho mục đích học tập và là **Đ�
 
 ## 🔗 Triển Khai Lên Server thật của nhà trường (Deployment)
 
-### Tài liệu mô tả quy trình triển khai: [https://docs.google.com/document/d/1cIRloBYsmNGPzu7_3zV7odA4wc0rwLk5jioUXszKis8/edit?usp=sharing](https://docs.google.com/document/d/1cIRloBYsmNGPzu7_3zV7odA4wc0rwLk5jioUXszKis8/edit?usp=sharing)
+Tài liệu mô tả quy trình triển khai: [https://docs.google.com/document/d/1cIRloBYsmNGPzu7_3zV7odA4wc0rwLk5jioUXszKis8/edit?usp=sharing](https://docs.google.com/document/d/1cIRloBYsmNGPzu7_3zV7odA4wc0rwLk5jioUXszKis8/edit?usp=sharing)
 
+| Môi trường | URL | Ghi chú |
+|------------|-----|---------|
 | **🌐 Website (Production)** | [https://aiotlab.viu.edu.vn](https://aiotlab.viu.edu.vn) | Trang người dùng công khai |
 | **🔐 Admin Panel** | [https://aiotlab.viu.edu.vn/admin](https://aiotlab.viu.edu.vn/admin) | Trang quản trị (yêu cầu đăng nhập) |
 
