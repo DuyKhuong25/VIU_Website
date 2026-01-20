@@ -58,49 +58,52 @@ Dự án được thiết kế theo kiến trúc **Monorepo**, bao gồm:
 ---
 
 ## 🏗️ Kiến Trúc Hệ Thống
-VHU_WEB/ 
-├── Backend/ # Spring Boot REST API 
-│ ├── src/main/java/com/vhu/backend/ 
-│ │ ├── config/ # Cấu hình (Security, CORS, Firebase, ...) 
-│ │ ├── controller/ # REST Controllers 
-│ │ ├── dto/ # Data Transfer Objects 
-│ │ ├── entity/ # JPA Entities 
-│ │ ├── exception/ # Global Exception Handling 
-│ │ ├── jwt/ # JWT Authentication 
-│ │ ├── repository/ # Spring Data JPA Repositories 
-│ │ ├── service/ # Business Logic Services 
-│ │ └── utils/ # Utility Classes 
-│ └── resources/ # application.properties, Firebase config 
-├── Frontend/ 
-│ ├── admin/ # React Admin Dashboard 
-│ │ ├── src/ 
-│ │ │ ├── components/ # Reusable UI Components 
-│ │ │ ├── context/ # React Context (Auth, ...) 
-│ │ │ ├── hooks/ # Custom Hooks 
-│ │ │ ├── layouts/ # Layout Components 
-│ │ │ ├── pages/ # Page Components 
-│ │ │ ├── services/ # API Services (Axios) 
-│ │ │ └── utils/ # Helper Functions 
-│ │ └── ...
-│ ├── client/ # React Client Website 
-│ ├── src/ 
-│ │ ├── components/ # Reusable UI Components 
-│ │ ├── layouts/ # Layout Components 
-│ │ ├── locales/ # i18n Translation Files 
-│ │ ├── pages/ # Page Components 
-│ │ ├── services/ # API Services (Axios) 
-│ │ └── utils/ # Helper Functions 
-│ └── ...
-├── functions/ # Firebase Cloud Functions 
-│ └── index.js # Serverless Functions
-├── uploads/ # Media Storage 
-│ ├── articles/ 
-│ ├── partners/ 
-│ ├── slides/ 
-│ └── quick_access/
-├── firebase.json # Firebase Configuration
-
-
+```
+VHU_WEB/
+├── Backend/                          # Spring Boot REST API
+│   ├── src/main/java/com/vhu/backend/
+│   │   ├── config/                   # Cấu hình (Security, CORS, Firebase, ...)
+│   │   ├── controller/               # REST Controllers
+│   │   ├── dto/                      # Data Transfer Objects
+│   │   ├── entity/                   # JPA Entities
+│   │   ├── exception/                # Global Exception Handling
+│   │   ├── jwt/                      # JWT Authentication
+│   │   ├── repository/               # Spring Data JPA Repositories
+│   │   ├── service/                  # Business Logic Services
+│   │   └── utils/                    # Utility Classes
+│   └── resources/                    # application.properties, Firebase config
+│
+├── Frontend/
+│   ├── admin/                        # React Admin Dashboard
+│   │   └── src/
+│   │       ├── components/           # Reusable UI Components
+│   │       ├── context/              # React Context (Auth, ...)
+│   │       ├── hooks/                # Custom Hooks
+│   │       ├── layouts/              # Layout Components
+│   │       ├── pages/                # Page Components
+│   │       ├── services/             # API Services (Axios)
+│   │       └── utils/                # Helper Functions
+│   │
+│   └── client/                       # React Client Website
+│       └── src/
+│           ├── components/           # Reusable UI Components
+│           ├── layouts/              # Layout Components
+│           ├── locales/              # i18n Translation Files
+│           ├── pages/                # Page Components
+│           ├── services/             # API Services (Axios)
+│           └── utils/                # Helper Functions
+│
+├── functions/                        # Firebase Cloud Functions
+│   └── index.js                      # Serverless Functions
+│
+├── uploads/                          # Media Storage
+│   ├── articles/
+│   ├── partners/
+│   ├── slides/
+│   └── quick_access/
+│
+└── firebase.json                     # Firebase Configuration
+```
 ---
 
 ## 🛠️ Công Nghệ Sử Dụng
