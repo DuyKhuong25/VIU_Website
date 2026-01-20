@@ -1,0 +1,24 @@
+{
+  "nav": {
+    "about": "About Us",
+    "admissions": "Admissions",
+    "academics": "Academics",
+    "research": "Research",
+    "studentLife": "Student Life",
+    "news": "News & Events",
+    "contact": "Contact"
+  },
+  "subMenu": {
+    "overview": "Overview",
+    "history": "History & Development",
+    "organization": "Organization",
+    "undergraduate": "Undergraduate Admissions",
+    "graduate": "Graduate Admissions",
+    "faq": "Admissions FAQ",
+    "programs": "Academic Programs",
+    "qualityAssurance": "Quality Assurance",
+    "library": "Library",
+    "schedule": "Schedule",
+    "learningMaterials": "Learning Materials"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "nav": {
+    "about": "Giới thiệu",
+    "admissions": "Tuyển sinh",
+    "academics": "Đào tạo",
+    "research": "Nghiên cứu",
+    "studentLife": "Sinh viên",
+    "news": "Tin tức & Sự kiện",
+    "contact": "Liên hệ"
+  },
+  "subMenu": {
+    "overview": "Tổng quan",
+    "history": "Lịch sử phát triển",
+    "organization": "Tổ chức",
+    "undergraduate": "Tuyển sinh Đại học",
+    "graduate": "Tuyển sinh Sau Đại học",
+    "faq": "Hỏi đáp tuyển sinh",
+    "programs": "Chương trình học",
+    "qualityAssurance": "Đảm bảo chất lượng",
+    "library": "Thư viện",
+    "schedule": "Lịch học",
+    "learningMaterials": "Học liệu số"
+  }
+}

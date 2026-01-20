@@ -1,0 +1,125 @@
+@import "tailwindcss";
+
+#root {
+    overflow: clip;
+}
+
+:root {
+    --brand-blue: #083970;
+
+    --text-title: 16px;
+
+    --text-content: 13px;
+
+    --text-button: 12px;
+
+    --text-small: 11px;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+        font-family: "Be Vietnam Pro", sans-serif;
+    }
+}
+
+/*SLIDER CSS*/
+/* Tùy chỉnh nút Next/Prev */
+.swiper-button-next,
+.swiper-button-prev {
+    color: white !important; /* Màu của icon mũi tên */
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 44px !important;
+    height: 44px !important;
+    border-radius: 9999px;
+    transition: background-color 0.3s;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+    font-size: 18px !important; /* Kích thước icon mũi tên */
+    font-weight: bold;
+}
+
+/* Tùy chỉnh dấu chấm tròn Pagination */
+.swiper-pagination-bullet {
+    width: 8px !important;
+    height: 8px !important;
+    background-color: rgba(255, 255, 255, 0.5) !important;
+    opacity: 1 !important;
+    transition: background-color 0.3s;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: white !important;
+}
+
+
+/*PARTNER CSS*/
+/* Tùy chỉnh nút Next/Prev của Swiper */
+.swiper-button-next,
+.swiper-button-prev {
+    color: var(--brand-blue) !important; /* Sử dụng màu chủ đạo */
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 40px !important;
+    height: 40px !important;
+    border-radius: 9999px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.swiper-button-next::after,
+.swiper-button-prev::after {
+    font-size: 16px !important;
+    font-weight: bold;
+}
+
+.swiper-pagination {
+    bottom: 0px !important;
+}
+
+.swiper-pagination .swiper-pagination-bullet {
+    background-color: #a0aec0 !important;
+    opacity: 1 !important;
+    transition: all 0.3s;
+}
+
+.swiper-pagination .swiper-pagination-bullet-active-main {
+    background-color: var(--brand-blue) !important;
+}
+
+.swiper-pagination .swiper-pagination-bullet-active {
+    background-color: #718096 !important;
+}
+
+/* ARTICLE CONTENT STYLES */
+.article-content h2 {
+    @apply text-2xl font-bold mt-6 mb-3;
+}
+.article-content h3 {
+    @apply text-xl font-bold mt-4 mb-2;
+}
+.article-content p {
+    @apply text-[14px] text-gray-700 leading-relaxed mb-4;
+}
+.article-content ul,
+.article-content ol {
+    @apply list-inside list-disc pl-4 mb-4 space-y-2;
+}
+.article-content blockquote {
+    @apply border-l-4 border-amber-400 pl-4 py-2 italic text-gray-600 bg-gray-50 my-4;
+}
+.article-content img {
+    @apply rounded-lg shadow-md my-6 max-w-full h-auto mx-auto;
+}
+
+.swiper-button-disabled {
+    opacity: 0.2;
+    pointer-events: none;
+}
